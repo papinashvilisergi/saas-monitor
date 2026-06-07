@@ -1,15 +1,14 @@
-# SaaS Status Monitor
+# SaaS Weather Monitor
 
-მარტივი, კონტეინერიზებული აპლიკაცია SaaS პლატფორმის მონიტორინგისთვის.
+თანამედროვე ვებ-აპლიკაცია ამინდის მონიტორინგისთვის. აპლიკაცია ავტომატურად პოულობს ნებისმიერ ქალაქს მსოფლიოში და აჩვენებს მიმდინარე ტემპერატურას.
 
-## როგორ გავუშვათ
-პროექტის გასაშვებად დაგჭირდებათ [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+## ტექნოლოგიები:
+* Python / FastAPI
+* Docker & Docker Compose
+* Geocoding API & Open-Meteo API
+* Async HTTP (httpx)
 
-1. დააკლონეთ რეპოზიტორია:
-   `git clone <შენი-ლინკი>`
-2. გადადით საქაღალდეში:
-   `cd saas-monitor`
-3. გაუშვით პროექტი:
-   `docker compose up --build`
-
-აპლიკაცია ხელმისაწვდომი იქნება მისამართზე: `http://localhost:8000`
+## გაშვება:
+1. დააინსტალირეთ Docker Desktop.
+2. გაუშვით ბრძანება: `docker compose up --build`
+3. შედით ბრაუზერში: http://localhost:8000
